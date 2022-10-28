@@ -1,0 +1,41 @@
+footer{
+
+    height: 170px;
+    margin-top: 120px;
+    background-color: #3F5DB3;
+    text-align: center;
+    box-shadow: 1px 1px 3px #222;
+}
+
+
+.container{
+
+    padding-top: 40px;
+    
+}
+
+.container p, .container a{
+
+    margin-top: 10px;
+    text-decoration: none;
+    color: #778CC9
+}
+
+.container h3{
+
+    color: #eee;
+    font-size: 1rem;
+}
+
+@media (max-width: 40rem){
+
+    footer{
+
+        height: 130px;
+        font-size: 12px;
+    }
+
+    .container h3{
+        font-size: 12px;
+    }
+}
